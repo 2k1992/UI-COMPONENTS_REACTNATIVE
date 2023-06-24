@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-
 import ImagePickerScreen from "./screens/imagePicker";
+import DropDown from "./screens/dropDown";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ImagePickerScreen />
+      {/* <ImagePickerScreen /> */}
+      <DropDown />
     </View>
   );
 }

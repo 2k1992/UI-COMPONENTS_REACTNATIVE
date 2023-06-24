@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Button, Image, StyleSheet } from "react-native";
+import { View, Button, Image, StyleSheet, Text } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 
 const styles = StyleSheet.create({
