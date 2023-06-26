@@ -4,6 +4,7 @@ import ImagePickerScreen from "./screens/imagePicker";
 import DropDown from "./screens/dropDown";
 import LinearProgressBar from "./screens/ProgressBar/linearProgressBar";
 import CircularProgressbar from "./screens/ProgressBar/circularProgressBar";
+import StackedProgressBar from "./screens/ProgressBar/stackedProgressBar";
 
 export default function App() {
   return (
@@ -11,7 +12,8 @@ export default function App() {
       {/* <ImagePickerScreen /> */}
       {/* <DropDown /> */}
       {/* <LinearProgressBar /> */}
-      <CircularProgressbar />
+      {/* <CircularProgressbar /> */}
+      <StackedProgressBar />
     </View>
   );
 }
