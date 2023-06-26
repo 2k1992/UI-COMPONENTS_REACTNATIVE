@@ -2,14 +2,15 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import ImagePickerScreen from "./screens/imagePicker";
 import DropDown from "./screens/dropDown";
-import ProgressBarsScreen from "./screens/progressBar";
+import LinearProgressBar from "./screens/ProgressBar/linearProgressBar";
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <ImagePickerScreen /> */}
       {/* <DropDown /> */}
-      <ProgressBarsScreen />
+      {/* <ProgressBarsScreen /> */}
+      <LinearProgressBar />
     </View>
   );
 }

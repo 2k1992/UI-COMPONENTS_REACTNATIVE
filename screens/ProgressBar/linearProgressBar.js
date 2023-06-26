@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Button, Text } from "react-native";
 import ProgressBar from "react-native-progress/Bar";
 
-const ProgressBarsScreen = () => {
+const LinearProgressBar = () => {
   const [progress, setProgress] = useState(0);
 
   const handlePress = () => {
@@ -24,4 +24,4 @@ const ProgressBarsScreen = () => {
   );
 };
 
-export default ProgressBarsScreen;
+export default LinearProgressBar;
