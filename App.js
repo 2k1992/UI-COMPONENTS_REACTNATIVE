@@ -3,14 +3,15 @@ import { StyleSheet, Text, View } from "react-native";
 import ImagePickerScreen from "./screens/imagePicker";
 import DropDown from "./screens/dropDown";
 import LinearProgressBar from "./screens/ProgressBar/linearProgressBar";
+import CircularProgressbar from "./screens/ProgressBar/circularProgressBar";
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <ImagePickerScreen /> */}
       {/* <DropDown /> */}
-      {/* <ProgressBarsScreen /> */}
-      <LinearProgressBar />
+      {/* <LinearProgressBar /> */}
+      <CircularProgressbar />
     </View>
   );
 }
